@@ -1,12 +1,16 @@
 # Photo-Transfer
 
-This program will be made for my parents to make it easier to put photos on their computer. Currently, they have to manually type the date and Name of the photo for each one of their photos that they put into thei computer. I'm hoping after this to automate it for them and make the process a little bit faster.
+This program makes it easier for my parents to put photos on their computer. Currently, they have to manually type the date and Name of the photo for each one of their photos that they put into their computer. I'm hoping after this to automate it for them and make the process a little bit faster.
 
+This is the format they use:
 
-Steps to take:
+YY-MM-DD Name_of_Event ii
 
-- Create Interface to drag photos into; "Drag photos in that will have the same name and date"
-- Create funtionality that allows photos to be dragged into the interface and saved into an array
-- Ask user for the Date and Name of the event
-- For each photo, write the date, name of the event, and it's index
-- Save the photos into a directory and output the directory to the user
+YY-MM-DD:      The date the photo was taken; ex: 17-10-25  (October 25, 2017)
+Name_of_Event: The name of the photo; ex: Denali
+ii:            The index of the photo since there's more than one of the same photo
+Full example of photo name:  17-10-25 Denali 07
+
+-The user enters a directory into the program
+-The user enters in the date and name of the event
+-The program goes into the specified directory and changes the name of each photo inside
